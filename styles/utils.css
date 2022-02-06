@@ -1,0 +1,121 @@
+/* varient size of border  */
+
+.br-s {
+  border-radius: 5px;
+  /* 5px */
+}
+
+.br-m {
+  border-radius: 10px;
+  /* 10px */
+}
+
+.br-l {
+  border-radius: 15px;
+  /* 15px */
+}
+
+.br-f {
+  border-radius: 999px;
+  /* 999px */
+}
+
+
+/* variant size of font weight */
+.font-xs {
+  font-weight: 300;
+}
+
+.font-s {
+  font-weight: 600;
+}
+
+.font-m {
+  font-weight: 400;
+}
+
+.font-l {
+  font-weight: 600;
+}
+
+.font-xl {
+  font-weight: 700;
+}
+
+.font-xxl {
+  font-weight: 900;
+}
+
+
+
+/* varinat size of font size */
+.fs-sm {
+  font-size: 0.5rem
+}
+
+
+.fs-md {
+  font-size: 1rem
+}
+
+
+.fs-l {
+  font-size: 1.5rem
+}
+
+.fs-xl {
+  font-size: 2rem;
+}
+
+.fs-xxl {
+  font-size: 3.5rem;
+}
+
+
+.box-shadow {
+  box-shadow: 0px 0px 6px -2px grey;
+}
+
+
+
+/* variant of flex property   */
+
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+
+  flex-direction: column;
+}
+
+.flow-row {
+  flex-flow: row;
+}
+
+.flow-col {
+  flex-flow: column;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* variant of line height */
+
+.lh-s {
+
+  line-height: 1rem;
+}
+
+.lh-m {
+  line-height: 1.5rem;
+}
+
+.lh-l {
+
+  line-height: 2rem;
+}

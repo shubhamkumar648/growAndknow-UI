@@ -1,0 +1,26 @@
+:root {
+
+    --primary-color: #008000;
+    --primary-color-hover: hsl(145, 95%, 50%);;
+    --secondary-color: hsl(89, 72%, 41%);
+    --cta-color: hsl(96, 68%, 31%);
+    --cta-hover:hsl(77, 57%, 51%);
+    --secondary-bg: hsla(28, 32%, 40%, 0.102);
+    --background-color: hsl(39, 78%, 69%);
+    --card-background: hsl(38, 73%, 84%);
+    --info-color: hsl(196, 78%, 64%);
+    --info-bg: hsla(196, 78%, 64%, 0.102);
+    --warning-color: #ffc95c;
+    --warning-bg: hsla(40, 100%, 68%, 0.102);
+    --danger-color: hsl(357, 93%, 71%);
+    --danger-bg: #fa71781a;
+    --success-color: #03c99b;
+    --success-bg: #03c99b1a;
+    --text-color: hsl(199, 31%, 14%);
+    --dark-grey: rgb(100, 100, 100);
+    --grey: rgb(150, 150, 150);
+    --grey-highlight: rgb(150, 150, 150, 0.2);
+    --light-grey: rgb(240, 240, 240);
+    --default-box-shadow: 0px 0px 6px -2px grey;
+    
+  }

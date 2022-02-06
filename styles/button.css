@@ -1,0 +1,53 @@
+.button {
+    background-color: hsl(122, 39%, 49%);
+    border: none;
+    color: var(--primary-color);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    display: inline-block;
+    background-color: transparent;
+    font-size: 1rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2rem;
+  }
+
+  
+  .btn-icon {
+
+    color: hsla(0, 0%, 0%, 0.486);
+  }
+
+  .cta-btn{
+
+    border: 1px solid  var(--primary-color);
+      border-radius: 2rem;
+    
+  }
+  
+  .cta-btn:hover{
+
+    background-color: var(--cta-color);
+
+  }
+
+  .cta-btn a:hover{
+    color: white;
+
+
+  }
+
+  .btn-install {
+
+    background-color: transparent;
+    border: 1px solid  var(--primary-color);
+    color: var(--secondary-color);
+  }
+  
+  .btn-install:hover {
+    
+    color: hsl(122, 39%, 49%);
+
+  }

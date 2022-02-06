@@ -1,9 +1,8 @@
-
-.component{
+.component {
 
     flex-wrap: wrap;
-    border:1px solid var(--primary-color);
-    gap:1rem;
+    border: 1px solid var(--primary-color);
+    gap: 1rem;
     border-radius: 5px;
     align-items: center;
 
@@ -22,8 +21,8 @@
 
 .avatar-m-size {
 
-      width: 6rem;
-      height: 6rem;
+    width: 6rem;
+    height: 6rem;
 }
 
 .avatar-s-size {
@@ -39,6 +38,7 @@
     align-items: center;
     background-color: var(--secondary-color);
 }
+
 .img-responsive {
 
     width: 100%;

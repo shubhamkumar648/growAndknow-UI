@@ -54,6 +54,6 @@
 
     width: 100%;
     border: 1px solid var(--primary-color);
-    background-color: #fafafa;
+    background-color: var(--lightwhite-color);
     border-radius: 5px;
 }

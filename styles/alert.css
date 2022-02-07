@@ -3,7 +3,7 @@
     border-radius: 1rem;
 }
 
-.alert-icons {
+.alert__icons {
     margin-right: 1rem;
 }
 
@@ -15,27 +15,27 @@
     display: flex;
 }
 
-.info {
+.alert__info {
     color: var(--info-color);
     background-color: var(--info-bg);
 }
 
-.sucess {
+.alert__sucess {
     color: var(--success-color);
     background-color: var(--success-bg)
 }
 
-.error {
+.alert__error {
     color: var(--error-color);
     background-color: var(--error-bg);
 }
 
-.warning {
+.alert__warning {
     color: var(--warning-color);
     background-color: var(--warning-bg);
 }
 
-.alert-codesnippet-section {
+.alert__codesnippet-section {
     width: 100%;
     border: 1px solid var(--primary-color);
     background-color: var(--lightwhite-color);

@@ -2,8 +2,6 @@
     position: relative;
     width: fit-content;
 }
-
-
 .badge__status-container {
     position: absolute;
     bottom: 1rem;
@@ -30,19 +28,27 @@
     background-color: var(--dark-grey);
 }
 
-.cart_icon {
-    right: -3px;
+.cart__icons{
+    right: -4px;
     top: -3px;
     background-color: var(--info-color);
     text-align: center;
     color: var(--lightwhite-color);
 }
 
-.hert_icon {
+.heart__icons{
     right: -4px;
     top: -7px;
     background-color: var(--danger-color);
     text-align: center;
     color: var(--lightwhite-color);
+}
 
+.badge__codesnippet-section{
+    width: 50%;
+    /* height: 50%; */
+    border: 1px solid var(--primary-color);
+    background-color: var(--lightwhite-color);
+    border-radius: 5px;
+    background-color: var(--codesnipet-bg);
 }

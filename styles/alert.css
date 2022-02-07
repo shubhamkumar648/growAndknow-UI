@@ -1,17 +1,13 @@
-
 .alert__container {
-
     border: 1px solid var(--primary-color);
     border-radius: 1rem;
 }
 
-.alert-icons{
-
+.alert-icons {
     margin-right: 1rem;
-
 }
-.alert{
 
+.alert {
     padding: 0.75rem 1.25rem;
     border: 1px solid transparent;
     border-radius: 0.25rem;
@@ -21,32 +17,28 @@
 
 .info {
     color: var(--info-color);
-
     background-color: var(--info-bg);
 }
 
 .sucess {
-
-    color:var(--success-color);
+    color: var(--success-color);
     background-color: var(--success-bg)
 }
 
 .error {
-   color: var(--error-color);
-   background-color: var(--error-bg) ;
+    color: var(--error-color);
+    background-color: var(--error-bg);
 }
 
 .warning {
-    color:var(--warning-color);
+    color: var(--warning-color);
     background-color: var(--warning-bg);
 }
 
-.alert-codesnippet-section{
-
-
+.alert-codesnippet-section {
     width: 100%;
     border: 1px solid var(--primary-color);
     background-color: var(--lightwhite-color);
     border-radius: 5px;
-    background-color: rgba(255,255,255,1);
+    background-color: var(--codesnipet-bg);
 }

@@ -24,6 +24,9 @@
     justify-content: flex-end;
 }
 
+.header__brand-name a {
+    color: var(--primary-color);
+}
 
 a {
     color: var(--text-color);

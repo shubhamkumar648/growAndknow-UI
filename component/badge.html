@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>GK UI</title>
+    <script
+      src="https://kit.fontawesome.com/a4417b6562.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <navbar class="navbar__container box-shadow mb-2">
+        <div class="navbar_nav">
+          <a href="#" class="link__nostyle fs-xl header__brand-name"> GK UI</a>
+
+          <button class="button">
+            <a href="#" class="link__nostyle">Home</a>
+          </button>
+
+          <button class="button">
+            <a href="#" class="link__nostyle">Installment</a>
+          </button>
+
+          <button class="button">
+            <a href="../pages/documentation.html" class="link__nostyle"
+              >Documnetation
+            </a>
+          </button>
+        </div>
+
+        <div class="navbar__git-icon">
+          <button class="button btn-icon">
+            <a
+              href="https://github.com/shubhamkumar648"
+              class="link__nostyle"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </button>
+        </div>
+      </navbar>
+
+      <aside class="aside__container p-2">
+        <div class="aside__header">
+          <span class="fs-xl">Component</span>
+        </div>
+
+        <hr />
+
+        <div class="aside__content p-1">
+          <span>
+            <a class="active link__nostyle" href="../component/avatar.html"
+              >Avatar</a
+            ></span
+          >
+
+          <span>
+            <a class="active link__nostyle" href="../component/alert.html"
+              >Alert</a
+            ></span
+          >
+          <span>
+            <a class="active link__nostyle" href="../component/badge.html"
+              >Badges</a
+            ></span
+          >
+          <span> <a class="active link__nostyle" href="#home">Home</a></span>
+
+          <span> <a class="active link__nostyle" href="#home">Home</a></span>
+          <span> <a class="active link__nostyle" href="#home">Home</a></span>
+        </div>
+      </aside>
+
+      <main class="main__container p-2">
+        <h4>Badge</h4>
+        <p class="lh-l">
+          Badges are often used to display a notification count as a number or
+          status information.
+        </p>
+
+        <h6 class="lh-l">Examples of Diffrent Badges:</h6>
+        <p class="mb-2">
+          It can be used with avatar icon button few variant : online | offline
+          | busy | status |
+        </p>
+        <div class="component flex p-2 mb-2">
+          <!-- badges on avatar -->
+          <div class="badge__container">
+            <div class="avatar avatar-l-size">
+              <img
+                src="../assets/man 1.png"
+                alt="avatar1"
+                class="img-responsive img-round"
+              />
+
+              <span class="badge__status-container status_busy"> </span>
+            </div>
+          </div>
+
+          <div class="badge__container">
+            <div class="avatar avatar-m-size">
+              <img
+                src="../assets/profile-pic.png"
+                alt="avatar1"
+                class="img-responsive img-round"
+              />
+
+              <span class="badge__status-container status_online"> </span>
+            </div>
+          </div>
+          <div class="badge__container">
+            <div class="avatar avatar-s-size">
+              <img
+                src="../assets/man.png"
+                alt="avatar"
+                class="img-responsive img-round"
+              />
+
+              <span class="badge__status-container status_dnd"> </span>
+            </div>
+          </div>
+
+          <!-- badges on icon -->
+          <div class="badge__container">
+            <div class="avatar-s-size">
+              <img
+                src="../assets/shopping-cart.png"
+                alt="cart"
+                class="img-responsive"
+              />
+              <span class="badge__status-container cart__icons">4</span>
+            </div>
+          </div>
+
+          <div class="badge__container">
+            <div class="avatar-s-size">
+              <img
+                src="../assets/heart.png"
+                alt="cart"
+                class="img-responsive"
+              />
+              <span class="badge__status-container heart__icons">2</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="badge__codesnippet-section m-auto">
+          <code>
+
+
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=680&ds=false&dsyoff=100px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Anonymous+Pro&fs=15px&lh=124%25&si=false&es=1x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-l-size%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fassets%252Fman%25201.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar1%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2520img-round%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge__status-container%2520status_busy%2522%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-m-size%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fassets%252Fprofile-pic.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar1%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2520img-round%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge__status-container%2520status_online%2522%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520avatar-s-size%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fassets%252Fman.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2520img-round%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge__status-container%2520status_dnd%2522%253E%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%21--%2520badges%2520on%2520icon%2520--%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-s-size%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fassets%252Fshopping-cart.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522cart%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge__status-container%2520cart_icon%2522%253E4%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-s-size%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fassets%252Fheart.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522cart%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge__status-container%2520hert_icon%2522%253E2%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 829px; height: 600px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            
+          </code>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -16,38 +16,184 @@
 
   
   .btn-icon {
-
-    color: hsla(0, 0%, 0%, 0.486);
+   color: hsla(0, 0%, 0%, 0.486);
   }
 
   .cta-btn{
-
-    border: 1px solid  var(--primary-color);
+      border: 1px solid  var(--primary-color);
       border-radius: 2rem;
-    
-  }
+    }
   
   .cta-btn:hover{
-
-    background-color: var(--cta-color);
-
-  }
+   background-color: var(--cta-color);
+ }
 
   .cta-btn a:hover{
     color: white;
-
-
-  }
+}
 
   .btn-install {
-
-    background-color: transparent;
+   background-color: transparent;
     border: 1px solid  var(--primary-color);
     color: var(--secondary-color);
   }
   
   .btn-install:hover {
-    
     color: hsl(122, 39%, 49%);
+}
 
+
+/* button component */
+
+.button__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn__display {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--light-grey);
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3px;
+  border: none;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+.btn__primary {
+ background-color: var(--primary-color);
+  color: var(--lightwhite-color);
+}
+
+.btn__primary:hover {
+background-color: var(--cta-color);
+}
+
+.btn__secondary {
+ background-color: var(--lightwhite-color);
+  color: var(--text-color);
+}
+
+.btn__secondary:hover {
+  background-color: var(--grey);
+}
+
+.btn__danger {
+  background-color: var(--danger-color);
+}
+
+.btn__danger:hover {
+  background-color: var(--danger-hover);
+}
+
+.btn__sucess {
+  background-color: var(--success-color);
+}
+
+.btn__sucess:hover {
+  background-color: var(--success-hover);
+}
+
+.btn__primary-text {
+  background-color: transparent;
+  border-style: hidden
+}
+
+.btn__primary-text:hover {
+
+  border-style: hidden hidden solid hidden;
+  color: var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.btn__primary_outline {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.btn__primary_outline:hover {
+  color: var(--lightwhite-color);
+  background-color: var(--primary-color);
+}
+
+.btn__secondary_outline {
+  color: var(--text-color);
+  border: 1px solid var(--grey);
+}
+
+.btn__secondary_outline:hover {
+  color: var(--text-color);
+  background-color: var(--grey);
+}
+
+.btn__danger_outline {
+  color: var(--text-color);
+  border: 1px solid var(--danger-color);
+}
+
+.btn__danger_outline:hover {
+ background-color: var(--danger-color);
+}
+
+.btn__sucess_outline {
+  border: 1px solid var(--success-color);
+}
+
+.btn__sucess_outline:hover {
+  color: var(--lightwhite-color);
+  background-color: var(--success-hover);
+}
+
+.link_N_Icon_button a {
+
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3px;
+  border: none;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+.link_btn{
+  padding: 1rem 2rem;
+}
+.icons_btn {
+  display: flex;
+  gap: 8px;
+}
+
+.float__container{
+
+  position: static;
+}
+
+.float__btn{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  width: 50px;
+  height: 50px;
+  font-size: 1.125rem;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  z-index: 2;
+  }
+  .float__btn:hover{
+
+    background-color: var(--cta-color);
   }

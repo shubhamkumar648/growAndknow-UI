@@ -1,50 +1,47 @@
 .button {
-    background-color: hsl(122, 39%, 49%);
-    border: none;
-    color: var(--primary-color);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    display: inline-block;
-    background-color: transparent;
-    font-size: 1rem;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 2rem;
-  }
-
-  
-  .btn-icon {
-   color: hsla(0, 0%, 0%, 0.486);
-  }
-
-  .cta-btn{
-      border: 1px solid  var(--primary-color);
-      border-radius: 2rem;
-    }
-  
-  .cta-btn:hover{
-   background-color: var(--cta-color);
- }
-
-  .cta-btn a:hover{
-    color: white;
+  background-color: hsl(122, 39%, 49%);
+  border: none;
+  color: var(--primary-color);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  display: inline-block;
+  background-color: transparent;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2rem;
 }
 
-  .btn-install {
-   background-color: transparent;
-    border: 1px solid  var(--primary-color);
-    color: var(--secondary-color);
-  }
-  
-  .btn-install:hover {
-    color: hsl(122, 39%, 49%);
+.btn-icon {
+  color: hsla(0, 0%, 0%, 0.486);
 }
 
+.cta-btn {
+  border: 1px solid var(--primary-color);
+  border-radius: 2rem;
+}
+
+.cta-btn:hover {
+  background-color: var(--cta-color);
+}
+
+.cta-btn a:hover {
+  color: white;
+}
+
+.btn-install {
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.btn-install:hover {
+  color: hsl(122, 39%, 49%);
+}
 
 /* button component */
-
 .button__container {
   display: flex;
   flex-direction: column;
@@ -69,16 +66,16 @@
 }
 
 .btn__primary {
- background-color: var(--primary-color);
+  background-color: var(--primary-color);
   color: var(--lightwhite-color);
 }
 
 .btn__primary:hover {
-background-color: var(--cta-color);
+  background-color: var(--cta-color);
 }
 
 .btn__secondary {
- background-color: var(--lightwhite-color);
+  background-color: var(--lightwhite-color);
   color: var(--text-color);
 }
 
@@ -108,7 +105,6 @@ background-color: var(--cta-color);
 }
 
 .btn__primary-text:hover {
-
   border-style: hidden hidden solid hidden;
   color: var(--secondary-color);
   border-bottom: 1px solid var(--secondary-color);
@@ -140,7 +136,7 @@ background-color: var(--cta-color);
 }
 
 .btn__danger_outline:hover {
- background-color: var(--danger-color);
+  background-color: var(--danger-color);
 }
 
 .btn__sucess_outline {
@@ -153,7 +149,6 @@ background-color: var(--cta-color);
 }
 
 .link_N_Icon_button a {
-
   font-weight: 500;
   font-size: 1rem;
   padding: 0.5rem 1.5rem;
@@ -163,21 +158,20 @@ background-color: var(--cta-color);
   cursor: pointer;
 }
 
-.link_btn{
+.link_btn {
   padding: 1rem 2rem;
 }
+
 .icons_btn {
   display: flex;
   gap: 8px;
 }
 
-.float__container{
-
+.float__container {
   position: static;
 }
 
-.float__btn{
-  box-sizing: border-box;
+.float__btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -192,8 +186,8 @@ background-color: var(--cta-color);
   background-color: var(--primary-color);
   color: var(--text-color);
   z-index: 2;
-  }
-  .float__btn:hover{
+}
 
-    background-color: var(--cta-color);
-  }
+.float__btn:hover {
+  background-color: var(--cta-color);
+}

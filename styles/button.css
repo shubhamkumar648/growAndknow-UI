@@ -167,27 +167,28 @@
   gap: 8px;
 }
 
-.float__container {
-  position: static;
-}
-
 .float__btn {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  width: 50px;
-  height: 50px;
-  font-size: 1.125rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
-  background-color: var(--primary-color);
-  color: var(--text-color);
-  z-index: 2;
 }
 
 .float__btn:hover {
   background-color: var(--cta-color);
+}
+
+.code_snipet_display {
+
+  box-sizing: border-box;
+  width: 100%;
+  max-height: 213px;
+  padding: 1rem 0;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid var(--primary-color);
+  overflow: auto;
+  border-radius: 0.3rem;
 }

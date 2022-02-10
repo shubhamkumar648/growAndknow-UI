@@ -119,3 +119,10 @@
 
   line-height: 2rem;
 }
+
+
+/* variant of letter spacing */
+
+.ls-m {
+  letter-spacing: 0.5px
+}

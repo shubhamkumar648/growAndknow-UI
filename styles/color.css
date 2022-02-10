@@ -17,8 +17,10 @@
     --error-color: hsl(354, 61%, 28%);
     --error-bg: hsla(357, 93%, 71%, 0.102);
     --success-color: hsl(133, 61%, 21%);
+    --success-hover: hsl(133, 69%, 70%);
     --success-bg:hsl(137, 41%, 88%);
     --danger-color: hsl(354, 74%, 45%);
+    --danger-hover:hsl(354, 92%, 61%);
     --text-color: hsl(199, 31%, 14%);
     --dark-grey: rgb(100, 100, 100);
     --grey: rgb(150, 150, 150);

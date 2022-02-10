@@ -27,11 +27,11 @@
 }
 
 .font-s {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .font-m {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .font-l {
@@ -43,7 +43,7 @@
 }
 
 .font-xxl {
-  font-weight: 900;
+  font-weight: 800;
 }
 
 

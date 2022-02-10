@@ -8,7 +8,6 @@
     padding: 1rem;
     margin-bottom: 1rem;
     background-color: var(--grey);
-    border: hidden hidden 1px solid var(--primary-color) ;
     text-align: center;
 }
 

@@ -91,7 +91,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgba(161, 160, 160, 0.877);
+    background-color: var(--text-overlay);
 }
 
 .code_snipet_display {

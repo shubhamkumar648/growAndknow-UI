@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>GK UI</title>
+    <script src="https://kit.fontawesome.com/a4417b6562.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <navbar class="navbar__container box-shadow mb-2">
+            <div class="navbar_nav">
+                <a href="#" class="link__nostyle fs-xl header__brand-name"> GK UI</a>
+
+                <button class="button">
+                    <a href="#" class="link__nostyle">Home</a>
+                </button>
+
+                <button class="button">
+                    <a href="#" class="link__nostyle">Installment</a>
+                </button>
+
+                <button class="button">
+                    <a href="../pages/documentation.html" class="link__nostyle">Documnetation
+                    </a>
+                </button>
+            </div>
+
+            <div class="navbar__git-icon">
+                <button class="button btn-icon">
+                    <a href="https://github.com/shubhamkumar648" class="link__nostyle" target="_blank"><i
+                            class="fab fa-github"></i></a>
+                </button>
+            </div>
+        </navbar>
+
+        <aside class="aside__container p-2">
+            <div class="aside__header">
+                <span class="fs-xl">Component</span>
+            </div>
+
+            <hr />
+
+            <div class="aside__content p-1">
+            <span> <a class="active link__nostyle" href="../component/avatar.html">Avatar</a></span>
+            <span><a class="active link__nostyle" href="../component/alert.html">Alert</a></span>
+            <span><a class="active link__nostyle" href="../component/badge.html">Badges</a></span>
+            <span> <a class="active link__nostyle" href="../component/button.html">button</a></span>
+            <span> <a class="active link__nostyle" href="../component/card.html">Card</a></span>
+            <span> <a class="active link__nostyle" href="../component/image.html">Image</a></span>
+            <span> <a class="active link__nostyle" href="../component/input.html">Input</a></span>
+            <span><a class="active link__nostyle" href="../component/textutilities.html">Text Utilities</a></span>
+            <span><a class="active link__nostyle" href="../component/navigation.html">Navigation</a></span>
+           <span> <a class="active link__nostyle" href="../component/snackbar.html">Snackbar</a></span>
+            <span><a class="active link__nostyle" href="../component/rating.html">Rating</a></span>
+
+            </div>
+
+        </aside>
+
+        <main class="main__container p-2">
+
+            <div class="input_container flex flex-col">
+                <h3>Input</h3>
+                <p class="ls-m">The input field serves a purpose identified in the Input Purposes for User Interface.It
+                    take
+                    information from the user, and then save the data to the server.</p>
+                <p>Example of diffrent variant: Basic Input| RadioButoon | Checkbox|Validation with Error </p>
+
+                <h6>Basic Input:</h6>
+                <div class="input_body basic_input p-1">
+                    <input type="text" placeholder="enter text" class="p-1 mr-1">
+                    <input type="number" placeholder="number" class="p-1 ">
+                    <input type="password" placeholder="password" class="p-1">
+                    <textarea id="story" name="story" rows="4" cols="53" class="mt-1">write your thought.</textarea>
+                </div>
+
+                <div class="code_snippet_display">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522enter%2520text%2522%2520class%253D%2522p-1%2520mr-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522number%2522%2520placeholder%253D%2522number%2522%2520class%253D%2522p-1%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520placeholder%253D%2522password%2522%2520class%253D%2522p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520id%253D%2522story%2522%2520name%253D%2522story%2522%2520rows%253D%25224%2522%2520cols%253D%252253%2522%2520class%253D%2522mt-1%2522%253E%253C%252Ftextarea%253E"
+                            style="width: 100%; height: auto; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+                <h6>Radiobutton and Checkbox:</h6>
+
+                <div class="input_body radio_n_checkbox p-2">
+
+                    <div class="radiobtn_container flex">
+                        <input type="radio" id="bootstarap" name="fav_lib" value="BOOTSTRAP">
+                        <label for="bootstarap">Bootstrap</label>
+                        <input type="radio" id="css" name="fav_lib" value="CSS">
+                        <label for="css">CSS</label>
+                        <input type="checkbox" id="sports" name="sports" value="outdoor">
+                        <label for="sports"> cricket</label><br>
+                        <input type="checkbox" id="sports2" name="sports2" value="indoor">
+                        <label for="sports2"> badmintion</label><br>
+                    </div>
+
+                </div>
+                <div class="code_snippet_display">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522bootstarap%2522%2520name%253D%2522fav_lib%2522%2520value%253D%2522BOOTSTRAP%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522bootstarap%2522%253EBootstrap%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520id%253D%2522css%2522%2520name%253D%2522fav_lib%2522%2520value%253D%2522CSS%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522css%2522%253ECSS%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522sports%2522%2520name%253D%2522sports%2522%2520value%253D%2522outdoor%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522sports%2522%253E%2520cricket%253C%252Flabel%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522sports2%2522%2520name%253D%2522sports2%2522%2520value%253D%2522indoor%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522sports2%2522%253E%2520badmintion%253C%252Flabel%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520"
+                            style="width: 100%; height: auto; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+
+                <h6>Input alidation With error</h6>
+
+                <div class="input_body basic_input p-1">
+
+                    <div class="validation_input">
+                        <form action="#0">
+
+                            <label for="text">Name:</label>
+                            <input type="text" placeholder="enter text" class="p-1 mb-1" required />
+
+                            <div class="input_error flex">
+                                <label for="Email">Email:</label>
+                                <input type="email" placeholder="Email" class="p-1 mb-1" required />
+                                <span class="error_right"><i class="fas fa-exclamation-triangle error_icon"></i></span>
+                            </div>
+
+                            <div class="input_check flex">
+                                <label for="password">Password:</label>
+                                <input type="password" placeholder="password" class="p-1 mb-1" required />
+                                <span class="check_right"><i class="fas fa-check check_icon"></i></i></span>
+
+                            </div>
+                            <button class="btn btn__primary" type="submit m-auto">SUBMIT</button>
+
+                        </form>
+                    </div>
+
+                </div>
+                <div class="code_snippet_display">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cform%2520action%253D%2522%25230%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522text%2522%253EName%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522enter%2520text%2522%2520class%253D%2522p-1%2520mb-1%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_error%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522Email%2522%253EEmail%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520placeholder%253D%2522Email%2522%2520class%253D%2522p-1%2520mb-1%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522error_right%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520error_icon%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input_check%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522password%2522%253EPassword%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520placeholder%253D%2522password%2522%2520class%253D%2522p-1%2520mb-1%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522check_right%2522%253E%253Ci%2520class%253D%2522fas%2520fa-check%2520check_icon%2522%253E%253C%252Fi%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__primary%2522%2520type%253D%2522submit%2520m-auto%2522%253ESUBMIT%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E"
+                            style="width: 100%; height: auto; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </code>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>
+
+</html>

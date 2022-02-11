@@ -8,3 +8,8 @@
 .rating {
     color: var(--background-color);
 }
+
+.light_color{
+    text-shadow: -1px 0 var( --warning-color), 0 1px var( --warning-color), 1px 0 var( --warning-color), 0 -1px var(--background-color);
+    color: var(--lightwhite-color);
+}

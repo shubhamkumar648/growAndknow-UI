@@ -29,11 +29,11 @@
     font-size: 1.5rem;
 }
 
-.input_Serch_container {
+.input_Search_container {
     flex-basis: 30%;
 }
 
-.input_serch {
+.input_search {
     width: 100%;
     border-radius: 5px;
     padding: 1rem;

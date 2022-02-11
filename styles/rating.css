@@ -1,0 +1,10 @@
+.rating_main_container {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    padding: 4rem;
+}
+
+.rating {
+    color: var(--background-color);
+}

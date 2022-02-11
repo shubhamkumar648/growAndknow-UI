@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>GK UI</title>
+    <script
+      src="https://kit.fontawesome.com/a4417b6562.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <navbar class="navbar__container box-shadow mb-2">
+        <div class="navbar_nav">
+          <a href="#" class="link__nostyle fs-xl header__brand-name"> GK UI</a>
+
+          <button class="button">
+            <a href="#" class="link__nostyle">Home</a>
+          </button>
+
+          <button class="button">
+            <a href="#" class="link__nostyle">Installment</a>
+          </button>
+
+          <button class="button">
+            <a href="../pages/documentation.html" class="link__nostyle"
+              >Documentation
+            </a>
+          </button>
+        </div>
+
+        <div class="navbar__git-icon">
+          <button class="button btn-icon">
+            <a
+              href="https://github.com/shubhamkumar648"
+              class="link__nostyle"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </button>
+        </div>
+      </navbar>
+
+      <aside class="aside__container p-2">
+        <div class="aside__header">
+          <span class="fs-xl">Component</span>
+        </div>
+
+        <hr />
+
+        <div class="aside__content p-1">
+            <span> <a class="active link__nostyle" href="../component/avatar.html">Avatar</a></span>
+            <span><a class="active link__nostyle" href="../component/alert.html">Alert</a></span>
+            <span><a class="active link__nostyle" href="../component/badge.html">Badges</a></span>
+            <span> <a class="active link__nostyle" href="../component/button.html">button</a></span>
+            <span> <a class="active link__nostyle" href="../component/card.html">Card</a></span>
+            <span> <a class="active link__nostyle" href="../component/image.html">Image</a></span>
+            <span> <a class="active link__nostyle" href="../component/input.html">Input</a></span>
+            <span><a class="active link__nostyle" href="../component/textutilities.html">TextUtilities<a></span>
+            <span><a class="active link__nostyle" href="../component/navigation.html">Navigation</a></span>
+           <span><a class="active link__nostyle" href="../component/modal.html">Modal</a></span>
+            <span><a class="active link__nostyle" href="../component/rating.html">Rating</a></span>
+        </div>
+      </aside>
+
+      <main class="main__container p-2">
+        <h3 class="lh-l">Rating Star</h3>
+        <p class="ls-m lh-l">
+          Ratings provide insight opinions and experiences of things, and can
+          allow the user to submit a rating of their own.
+        </p>
+        <h6 class="lh-m">Example of Rating</h6>
+        <p class="lh-l">
+          It is a static user Rating component. You can use this component by
+          adding below mentiod code
+        </p>
+
+        <div class="rating_main_container flex flex-col mb-4">
+          <div class="rating_small fs-md">
+            <i class="fa fa-solid fa-star rating"></i>
+            <i class="fa fa-solid fa-star rating"></i>
+            <i class="fa fa-solid fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <div class="rating_md fs-l">
+            <i class="fa fa-solid fa-star rating"></i>
+            <i class="fa fa-solid fa-star rating"></i>
+            <i class="fa fa-solid fa-star rating"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <div class="rating_lg fs-xl">
+            <i class="fa fa-solid fa-star rating"></i>
+            <i class="fa fa-solid fa-star rating"></i>
+            <i class="fa fa-solid fa-star rating"></i>
+            <i class="fa fa-solid fa-star rating"></i>
+            <i class="fa fa-star"></i>
+          </div>
+        </div>
+
+        <div class="text_code_snippet mt-8 p-3">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522rating_main_container%2520flex%2520flex-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2520rating_small%2520fs-md%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-solid%2520fa-star%2520rating%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-solid%2520fa-star%2520rating%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-solid%2520fa-star%2520%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522%2520rating_md%2520fs-l%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-solid%2520fa-star%2520rating%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-solid%2520fa-star%2520rating%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-solid%2520fa-star%2520rating%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating_lg%2520fs-xl%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-solid%2520fa-star%2520rating%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-solid%2520fa-star%2520rating%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-solid%2520fa-star%2520rating%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-solid%2520fa-star%2520rating%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+              style="
+                width: 100%;
+                height: auto;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

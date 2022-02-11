@@ -1,0 +1,34 @@
+.model_main_body {
+    width: 100%;
+    gap: 2rem;
+}
+
+.model {
+    border: 1px solid var(--primary-color);
+    width: 100%;
+    padding: 1rem;
+}
+
+.model_container {
+    width: 21rem;
+    box-shadow: var(--default-box-shadow);
+    margin: 0 auto;
+}
+
+.model_live {
+    display: none;
+}
+
+.live_model_container {
+     gap: 1rem;
+}
+
+.centerbtn {
+    margin: 0 auto;
+    background-color: var( --primary-color);
+    color: var(--lightwhite-color);
+}
+
+.model_footer {
+    justify-content: flex-end;
+}

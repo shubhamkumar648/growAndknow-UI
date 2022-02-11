@@ -1,14 +1,11 @@
-const modelAvtive = document.querySelector("#btn-modal-active")
-const modelBox = document.querySelector("#model-box")
-const modalClose = document.querySelector("#model-close")
+const modelAvtive = document.querySelector("#btn-modal-active");
+const modelBox = document.querySelector("#model-box");
+const modalClose = document.querySelector("#model-close");
 
-console.log(modelAvtive);
+modelAvtive.addEventListener("click", function () {
+  modelBox.style.display = "block";
+});
 
-modelAvtive.addEventListener("click", () => {
-    modelBox.style.display="block"
-})
-
-modalClose.addEventListener('click', () => {
-    modelBox.style.display="none"
-
-})
+modalClose.addEventListener("click", function () {
+  modelBox.style.display = "none";
+});

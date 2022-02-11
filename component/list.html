@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>GK UI</title>
+    <script
+    src="https://kit.fontawesome.com/a4417b6562.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <navbar class="navbar__container box-shadow mb-2">
+        <div class="navbar_nav">
+          <a href="#" class="link__nostyle fs-xl header__brand-name"> GK UI</a>
+
+          <button class="button">
+            <a href="#" class="link__nostyle">Home</a>
+          </button>
+
+          <button class="button">
+            <a href="#" class="link__nostyle">Installment</a>
+          </button>
+
+          <button class="button">
+            <a href="../pages/documentation.html" class="link__nostyle"
+              >Documentation
+            </a>
+          </button>
+        </div>
+
+        <div class="navbar__git-icon">
+          <button class="button btn-icon">
+            <a
+              href="https://github.com/shubhamkumar648"
+              class="link__nostyle"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </button>
+        </div>
+      </navbar>
+
+      <aside class="aside__container p-2">
+        <div class="aside__header">
+          <span class="fs-xl">Component</span>
+        </div>
+
+        <hr />
+
+        <div class="aside__content p-1">
+            <span> <a class="active link__nostyle" href="../component/avatar.html">Avatar</a></span>
+            <span><a class="active link__nostyle" href="../component/alert.html">Alert</a></span>
+            <span><a class="active link__nostyle" href="../component/badge.html">Badges</a></span>
+            <span> <a class="active link__nostyle" href="../component/button.html">button</a></span>
+            <span> <a class="active link__nostyle" href="../component/card.html">Card</a></span>
+            <span> <a class="active link__nostyle" href="../component/image.html">Image</a></span>
+            <span> <a class="active link__nostyle" href="../component/input.html">Input</a></span>
+            <span><a class="active link__nostyle" href="../component/textutilities.html">Text Utilities</a></span>
+            <span><a class="active link__nostyle" href="../component/navigation.html">Navigation</a></span>
+           <span> <a class="active link__nostyle" href="../component/snackbar.html">Snackbar</a></span>
+            <span><a class="active link__nostyle" href="../component/rating.html">Rating</a></span>
+        </div>
+      </aside>
+
+      <main class="main__container p-2">
+        <h3>Lists</h3>
+        <p class="ls-s lh-l">
+          List component to display data item in Ordered or Unodered Form.
+        </p>
+        <p class="lh-s mb-4">Example: Simple list| Stacklist</p>
+
+        <h6 class="lh-l">Simple List:</h6>
+        <p class="lh-m">It contain Orderd or Unordered</p>
+        <div class="list_main__container">
+          <div class="normal_list_container p-1">
+            <ul class="normal-list">
+              <li class="list_item">default Item 1</li>
+              <li class="list_item">default item 2</li>
+              <li class="list_item">default item 3</li>
+              <li class="list_item">default item 4</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="text_code_snippet mt-2">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%2520%253Cdiv%2520class%253D%2522normal_list_container%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522normal-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list_item%2522%253Edefault%2520Item%25201%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list_item%2522%253Edefault%2520item%25202%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list_item%2522%253Edefault%2520item%25203%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522list_item%2522%253Edefault%2520item%25204%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: auto;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+
+        <h6 class="lh-l">Stack list:</h6>
+        <p class="lh-m">
+          Stacked lists are usefull to display list of users with name, avatar,
+          and status
+        </p>
+        <div class="list_main__container mt-2 p-2">
+          <div class="stack_list_container">
+            <ul class="stack_list">
+              <li>
+                <img
+                  src="../assets/man 1.png"
+                  alt="img"
+                  class="round_image2 img_responsive"
+                />
+                <div class="ml-2">
+                  <h6>User Name</h6>
+                  <hr />
+                  <p>Status:online</p>
+                </div>
+              </li>
+              <hr />
+              <li>
+                <img
+                  src="../assets/man 1.png"
+                  alt="img"
+                  class="round_image2 img_responsive"
+                />
+                <div class="ml-2">
+                  <h6>User Name</h6>
+                  <hr />
+                  <p>Status:online</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="text_code_snippet mt-2">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522stack_list_container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522stack_list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fman%25201.png%2522%2520alt%253D%2522img%2522%2520class%253D%2522round_image2%2520img_responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522ml-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253EUser%2520Name%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EStatus%253Aonline%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fman%25201.png%2522%2520alt%253D%2522img%2522%2520class%253D%2522round_image2%2520img_responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522ml-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253EUser%2520Name%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Chr%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EStatus%253Aonline%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: auto;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+        </div>
+      </main>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,30 @@
+.list_main__container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--primary-color);
+}
+
+.normal-list li{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: var(--grey);
+    text-align: center;
+}
+
+.round_image2{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.stack_list_container {
+     width: 21rem;
+     height: auto;
+     padding: 1rem;
+     border: 1px solid var(--text-color);
+     margin: auto;
+}
+.stack_list li{
+    display: flex;
+}

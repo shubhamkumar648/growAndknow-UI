@@ -36,7 +36,8 @@
 .input_serch {
     width: 100%;
     border-radius: 5px;
-    padding: 10px;
+    padding: 1rem;
+    text-align: center;
 }
 
 .cart_count {

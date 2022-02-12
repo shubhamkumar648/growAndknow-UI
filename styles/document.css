@@ -1,22 +1,13 @@
 .container {
-
-    display: flex;
+   display: flex;
     flex-wrap: wrap;
 }
-
-
 
 .aside__container {
     flex: 20%;
     height: 100%;
     position: sticky;
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%);
-}
-
-.aside__content {
-    display: flex;
-    flex-direction: column;
-
 }
 
 .aside__header{
@@ -37,5 +28,10 @@
 .main__container {
     flex: 80%;
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%);
+}
 
+hr{
+    height: 1px;
+    background-color: var(--primary-color);
+    border: none;
 }

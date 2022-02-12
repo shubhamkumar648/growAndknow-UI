@@ -18,28 +18,36 @@
   color: hsla(0, 0%, 0%, 0.486);
 }
 
-.cta-btn {
-  border: 1px solid var(--primary-color);
-  border-radius: 2rem;
-}
-
-.cta-btn:hover {
-  background-color: var(--cta-color);
-}
-
-.cta-btn a:hover {
+.cta-btn{
+  background-color: var(--primary-color);
+  }
+  
+  .cta-btn:hover{
+    background-color: var(--cta-color);
+  }
+  
+  .cta-btn a{
+    color: var(--lightwhite-color);
+  }
+  .cta-btn a:hover{
+    color: var(--lightwhite-color);
+  }
+  
+  
+  .btn_install {
+     background-color: var( --grey);
+  }
+  
+  .btn_install:hover{
+    background-color:var(--primary-color);
+    color: var(--lightwhite-color);
+  
+  }
+  
+  .btn_install a:hover{
   color: var(--lightwhite-color);
-}
-
-.btn-install {
-  background-color: transparent;
-  border: 1px solid var(--primary-color);
-  color: var(--secondary-color);
-}
-
-.btn-install:hover {
-  color: var(--secondary-color);
-}
+  }
+  
 
 /* button component */
 .button__container {

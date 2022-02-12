@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/gk1.png" type="image/png" />
+
     <link rel="stylesheet" href="../styles/main.css" />
     <title>GK UI</title>
     <script
@@ -16,34 +18,24 @@
     <div class="container">
       <navbar class="navbar__container box-shadow mb-2">
         <div class="navbar_nav">
-          <a href="#" class="link__nostyle fs-xl header__brand-name"> GK UI</a>
+            <a href="#" class="link__nostyle fs-xl header__brand-name brand_color">Grow & Know UI</a>
+          </div>
 
-          <button class="button">
-            <a href="#" class="link__nostyle">Home</a>
-          </button>
-
-          <button class="button">
-            <a href="#" class="link__nostyle">Installment</a>
-          </button>
-
-          <button class="button">
-            <a href="../pages/documentation.html" class="link__nostyle"
-              >Documnetation
+         <div class="navbar__git-icon">
+            <button class="button">
+            <a href="../index.html" class="link__nostyle">Home</a>
+        </button>
+  
+       <button class="button">
+            <a href="../component/alert.html" class="link__nostyle">Documentation
             </a>
-          </button>
+        </button>
+            <button class="button btn-icon">
+                <a href="https://github.com/shubhamkumar648" class="link__nostyle" target="_blank"><i
+                        class="fab fa-github"></i></a>
+            </button>
         </div>
-
-        <div class="navbar__git-icon">
-          <button class="button btn-icon">
-            <a
-              href="https://github.com/shubhamkumar648"
-              class="link__nostyle"
-              target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-          </button>
-        </div>
-      </navbar>
+    </navbar>
 
       <aside class="aside__container p-2">
         <div class="aside__header">
@@ -52,24 +44,21 @@
 
         <hr />
 
-        <div class="aside__content p-1">
-          <span>
-            <a class="active link__nostyle" href="../component/avatar.html"
-              >Avatar</a
-            ></span
-          >
-
-          <span>
-            <a class="active link__nostyle" href="../component/alert.html"
-              >Alert</a
-            ></span
-          >
-          <span> <a class="active link__nostyle" href="#">Home</a></span>
-          <span> <a class="active link__nostyle" href="#home">Home</a></span>
-
-          <span> <a class="active link__nostyle" href="#home">Home</a></span>
-          <span> <a class="active link__nostyle" href="#home">Home</a></span>
-        </div>
+        <div class="aside__content flex flex-col p-1">
+         
+            <ul>
+              <li><a class="active link__nostyle" href="../component/alert.html">Alert</a></li>
+              <li> <a class="active link__nostyle" href="../component/avatar.html">Avatar</a></li>
+              <li><a class="active link__nostyle" href="../component/badge.html">Badges</a></li>
+              <li> <a class="active link__nostyle" href="../component/button.html">Button</a></li>
+              <li> <a class="active link__nostyle" href="../component/card.html">Card</a></li>
+              <li> <a class="active link__nostyle" href="../component/image.html">Image</a></li>
+              <li> <a class="active link__nostyle" href="../component/input.html">Input</a></li>
+              <li><a class="active link__nostyle" href="../component/textutilities.html">Text Utilities</a></li>
+              <li><a class="active link__nostyle" href="../component/navigation.html">Navigation</a></li>
+             <li> <a class="active link__nostyle" href="../component/snackbar.html">Snackbar</a></li>
+              <li><a class="active link__nostyle" href="../component/rating.html">Rating</a></li>
+            </ul>
       </aside>
 
       <main class="main__container p-2">
@@ -111,7 +100,7 @@
               src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=680&ds=true&dsyoff=39px&dsblur=68px&wc=true&wa=true&pv=0px&ph=100px&ln=false&fl=1&fm=Anonymous+Pro&fs=15px&lh=124%25&si=false&es=1x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2520alert-icons%2522%253E%253C%252Fi%253EThis%2520is%2520a%2520info%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alert%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520sucess%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2520alert-icons%2522%253E%253C%252Fi%253EThis%2520is%2520sucess%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alert%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520error%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-skull-crossbones%2520alert-icons%2522%253E%253C%252Fi%253EThis%2520is%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520error%2520alert%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2520alert-icons%2522%253E%253C%252Fi%253EThis%2520is%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520warning%2520alert%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
               style="
                 width: 100%;
-                height: auto;
+                height: 300px;
                 border: 0;
                 transform: scale(1);
                 overflow: hidden;

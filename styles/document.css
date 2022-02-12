@@ -19,10 +19,19 @@
 
 }
 
-.aside__content span {
+.aside__header{
+    text-align: center;
+}
 
-    padding: 1rem;
-    cursor: pointer;
+.aside__header span:hover{
+  color: var(--secondary-color);
+}
+
+.aside__content li{
+   cursor: pointer;
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+    text-align: center;
 }
 
 .main__container {

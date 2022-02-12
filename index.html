@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GK UI</title>
+    <link rel="icon" href="./assets/gk1.png" type="image/png" />
     <link rel="stylesheet" href="./styles/main.css" />
     <link rel="stylesheet" href="./styles/grow-know.style.css" />
     <script
@@ -13,18 +14,16 @@
     ></script>
   </head>
   <body>
-    <div class="container">
-      <header class="header__container">
+    <div class="container flex flex-col">
+      <header class="header__container flex">
         <div class="header__brand-name m-1">
-          <a href="#" class="link__nostyle .fs-xl" style="color: green">
-            GK UI</a
-          >
+          <a href="#" class="link__nostyle fs-xl"> Grow & Know UI</a>
         </div>
 
         <div class="header__right">
           <button class="button">
             <a href="./pages/documentation.html" class="link__nostyle"
-              >Documnetation
+              >Documentation
             </a>
           </button>
 
@@ -46,46 +45,67 @@
           <div class="main__text-content pt-7">
             <h3 class="text__primary-color">Build UI Faster</h3>
 
-            <p class="main__desciption-text fs-l">
-              Copy and paste the components at one click. It is user-friendly
-              and customizable. Spend less time in designing and concentrate
-              more on logic without hustling on UI.
+            <p class="main__desciption-text fs-l lh-l ls-m">
+              Gk,grow & Know is a CSS library, for the quick creation of
+              websites that help save time and focus more on functionality.
             </p>
 
-            <div class="button__container flex">
-              <button class="button cta-btn">
-                <a href="./documentation.html" class="link__nostyle">
+            <div class="button__contaier_landingpage flex mt-3">
+              <button class="btn cta-btn">
+                <a href="./pages/documentation.html" class="link__nostyle">
                   Get Start</a
                 >
               </button>
-              <button class="button btn-install">
-                <a href="#" class="link__nostyle"> Installment</a>
+              <button class="btn btn_install">
+                <a href="#installation" class="link__nostyle"> Installment</a>
               </button>
             </div>
           </div>
 
           <div class="image-section">
-            <img class="img" src="./assets/img.svg" alt="image" />
+            <img
+              class="img"
+              src="./assets/img.svg"
+              alt="image"
+              class="img_responsive img_dimension"
+            />
           </div>
         </div>
+               <!-- installation section -->
 
-        <div class="main__installment flex mt-8">
-          <div class="installemt__text-content m-auto">
+        <div id="installation" class="main__installment flex mt-8">
+          <div class="installemt__text-content">
             <h3 class="text__primary-color">Installation</h3>
 
-            <p class="installment__desciption-text fs-l">
-              design and build their own projects with (Grow N Know) UI It is
-              user-friendly and customizable. Spend less time and focos on other
-              coding part.
+            <p class="installment__desciption-text fs-l lh-l">
+              Copy the link and paste  in your project,
+              the link provided in the code snippet
             </p>
           </div>
-          <div class="installment__code-snippet">code</div>
+          <div class="installment__code-snippet">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2838%2C35%2C35%2C1%29&t=one-dark&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%2520%2520%2520%2520%2520link%2520will%2520coming%2520soon%2520today%2520midnight%2520%21stay%2520yue"
+                style="
+                  width: 100%;
+                  height: auto;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
         </div>
       </main>
 
       <footer class="fotter__container">
         <div class="footer_header">
-          <span>Mady by <i class="fas fa-code">Shubham Kumar</i></span>
+          <span class="font-l fs-l"
+            >Mady by<i class="fas fa-code code_color"></i>Shubham Kumar</span
+          >
         </div>
 
         <div class="footer_social-icon">

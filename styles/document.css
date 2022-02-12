@@ -1,40 +1,6 @@
 .container {
-
-    display: flex;
+   display: flex;
     flex-wrap: wrap;
-}
-
-.navbar__container {
-    display: flex;
-    flex: 100%;
-    justify-content: space-between;
-    background-color: var(--light-grey);
-}
-
-.link__nostyle {
-
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-}
-
-.navbar__git-icon {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.header__brand-name a {
-    color: var(--primary-color);
-}
-
-a {
-    color: var(--text-color);
-    font-weight: 700;
-}
-
-a:hover {
-    color: var(--secondary-color);
 }
 
 .aside__container {
@@ -44,21 +10,28 @@ a:hover {
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%);
 }
 
-
-.aside__content {
-    display: flex;
-    flex-direction: column;
-
+.aside__header{
+    text-align: center;
 }
 
-.aside__content span {
+.aside__header span:hover{
+  color: var(--secondary-color);
+}
 
-    padding: 1rem;
-    cursor: pointer;
+.aside__content li{
+   cursor: pointer;
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+    text-align: center;
 }
 
 .main__container {
     flex: 80%;
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%);
+}
 
+hr{
+    height: 1px;
+    background-color: var(--primary-color);
+    border: none;
 }

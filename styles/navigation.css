@@ -52,10 +52,37 @@
     text-align: center;
 }
 
-.border_color {
-    border: 1px solid var(--primary-color);
+
+/* home page navbar */
+
+.navbar__container {
+    display: flex;
+    flex: 100%;
+    justify-content: space-between;
+    background-color: var(--light-grey);
 }
 
-.brand_color {
-    color: var(--primary-color);
+.link__nostyle {
+   text-decoration: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.navbar__git-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    color:var(--text-color);
+    font-weight: 700;
+}
+
+a:hover{
+    color: var(--secondary-color);
+}
+
+.navbar_nav a{
+    color: var(--primary-color) !important;
 }

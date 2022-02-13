@@ -1,328 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/main.css" />
-    <title>GK UI</title>
-    <script
-      src="https://kit.fontawesome.com/a4417b6562.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body>
-    <div class="container">
-      <navbar class="navbar__container box-shadow mb-2">
-        <div class="navbar_nav">
-          <a href="#" class="link__nostyle fs-xl header__brand-name"> GK UI</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../assets/gk1.png" type="image/png" />
+  <link rel="stylesheet" href="../styles/main.css" />
+  <title>GK UI</title>
+  <script src="https://kit.fontawesome.com/a4417b6562.js" crossorigin="anonymous"></script>
+</head>
 
-          <button class="button">
-            <a href="#" class="link__nostyle">Home</a>
-          </button>
+<body>
+  <div class="container">
+    <navbar class="navbar__container box-shadow mb-2">
+      <div class="navbar_nav">
+        <a href="#" class="link__nostyle fs-xl header__brand-name brand_color">Grow & Know UI</a>
+      </div>
 
-          <button class="button">
-            <a href="#" class="link__nostyle">Installment</a>
-          </button>
+      <div class="navbar__git-icon">
+        <button class="button">
+          <a href="../index.html" class="link__nostyle">Home</a>
+        </button>
 
-          <button class="button">
-            <a href="../pages/documentation.html" class="link__nostyle"
-              >Documnetation
-            </a>
-          </button>
+        <button class="button">
+          <a href="../component/alert.html" class="link__nostyle">Documentation
+          </a>
+        </button>
+        <button class="button btn-icon">
+          <a href="https://github.com/shubhamkumar648" class="link__nostyle" target="_blank"><i
+              class="fab fa-github"></i></a>
+        </button>
+      </div>
+    </navbar>
+
+    <aside class="aside__container p-2">
+      <div class="aside__header">
+        <span class="fs-xl">Component</span>
+      </div>
+
+       <hr />
+
+      <div class="aside__content p-1">
+        <ul>
+          <li><a class="active link__nostyle" href="../component/alert.html">Alert</a></li>
+          <li> <a class="active link__nostyle" href="../component/avatar.html">Avatar</a></li>
+          <li><a class="active link__nostyle" href="../component/badge.html">Badges</a></li>
+          <li> <a class="active link__nostyle" href="../component/button.html">Button</a></li>
+          <li> <a class="active link__nostyle" href="../component/card.html">Card</a></li>
+          <li> <a class="active link__nostyle" href="../component/image.html">Image</a></li>
+          <li> <a class="active link__nostyle" href="../component/input.html">Input</a></li>
+          <li><a class="active link__nostyle" href="../component/textutilities.html">Text Utilities</a></li>
+          <li><a class="active link__nostyle" href="../component/navigation.html">Navigation</a></li>
+         <li> <a class="active link__nostyle" href="../component/snackbar.html">Snackbar</a></li>
+          <li><a class="active link__nostyle" href="../component/rating.html">Rating</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main class="main__container p-2">
+      <div class="card__container">
+        <h3 class="lh-2">Card</h3>
+        <p class="ls-m lh-2">
+          The card component content varieties of content, including a
+          heading, image, content and a footer
+        </p>
+        <p class="ls-s lh-2">
+          Variant of Card: horizontal card| Vertical Hard|Card With Badge|
+          Text Only Card|Cards with text overlay
+        </p>
+        <h6>Simple Text Card:</h6>
+
+        <div class="card_body p-2">
+          <!-- text card -->
+          <div class="card card_text p-1 m-auto">
+            <h5 class="font-l">Text card</h5>
+            <h6 class="lh-m">Text Tiltle</h6>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae qui eum repellendus sed soluta minima non vitae,
+              inventore nesciunt sequi nost
+            </p>
+          </div>
         </div>
 
-        <div class="navbar__git-icon">
-          <button class="button btn-icon">
-            <a
-              href="https://github.com/shubhamkumar648"
-              class="link__nostyle"
-              target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-          </button>
-        </div>
-      </navbar>
-
-      <aside class="aside__container p-2">
-        <div class="aside__header">
-          <span class="fs-xl">Component</span>
+        <div class="code_snipet_display">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card_text%2520p-1%2520m-auto%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522font-l%2522%253EText%2520card%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522lh-m%2522%253EText%2520Tiltle%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Repudiandae%2520qui%2520eum%2520repellendus%2520sed%2520soluta%2520minima%2520non%2520vitae%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520inventore%2520nesciunt%2520sequi%2520nost%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="
+                  width: 100%;
+                  height: auto;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </code>
         </div>
 
-        <hr />
-
-        <div class="aside__content p-1">
-          <span>
-            <a class="active link__nostyle" href="../component/avatar.html"
-              >Avatar</a
-            ></span
-          >
-
-          <span>
-            <a class="active link__nostyle" href="../component/alert.html"
-              >Alert</a
-            ></span
-          >
-          <span>
-            <a class="active link__nostyle" href="../component/badge.html"
-              >Badges</a
-            ></span
-          >
-          <span>
-            <a class="active link__nostyle" href="../component/button.html"
-              >button</a
-            ></span
-          >
-
-          <span>
-            <a class="active link__nostyle" href="../component/card.html"
-              >Card</a
-            ></span
-          >
-          <span
-            ><a class="active link__nostyle" href="../component/image.html"
-              >Image</a
-            ></span
-          >
-          <span>
-            <a class="active link__nostyle" href="../component/input.html"
-              >Input</a
-            ></span
-          >
-          <span>
-            <a
-              class="active link__nostyle"
-              href="../component/textutilities.html"
-              >Text Utilities</a
-            ></span
-          >
-          <span>
-            <a class="active link__nostyle" href="../component/navigation.html"
-              >Navigatio</a
-            ></span
-          >
-          <span>
-            <a class="active link__nostyle" href="../component/snackbar.html"
-              >Snackbar</a
-            ></span
-          >
-          <span>
-            <a class="active link__nostyle" href="../component/rating.html"
-              >Rating</a
-            ></span
-          >
-        </div>
-      </aside>
-
-      <main class="main__container p-2">
-        <div class="card__container">
-          <h3 class="lh-2">Card</h3>
-          <p class="ls-m lh-2">
-            The card component content varieties of content, including a
-            heading, image, content and a footer
-          </p>
-          <p class="ls-s lh-2">
-            Variant of Card: horizontal card| Vertical Hard|Card With Badge|
-            Text Only Card|Cards with text overlay
-          </p>
-          <h6>Simple Text Card:</h6>
-
-          <div class="card_body p-2">
-            <!-- text card -->
-            <div class="card card_text p-1 m-auto">
-              <h5 class="font-l">Text card</h5>
-              <h6 class="lh-m">Text Tiltle</h6>
-              <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Repudiandae qui eum repellendus sed soluta minima non vitae,
-                inventore nesciunt sequi nost
+        <!-- veritical card -->
+        <h6>Vertical Text Card:</h6>
+        <div class="card_body p-2">
+          <div class="card card_vertical m-auto">
+            <img src="../assets/img.png" alt="image" class="img-responsive" />
+            <div class="card vertical_card p-1">
+              <h5 class="font-l">Changing Planet</h5>
+              <p class="pt-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                corrupti dolor, provident veritatis laudantium quae aperiam
+                veniam dicta velit ducimus dolorum fuga iur
               </p>
             </div>
           </div>
-
-          <div class="code_snipet_display">
-            <code>
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card_text%2520p-1%2520m-auto%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522font-l%2522%253EText%2520card%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522lh-m%2522%253EText%2520Tiltle%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Repudiandae%2520qui%2520eum%2520repellendus%2520sed%2520soluta%2520minima%2520non%2520vitae%252C%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520inventore%2520nesciunt%2520sequi%2520nost%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                style="
+        </div>
+        <div class="code_snipet_display">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card_vertical%2520m-auto%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fimg.png%2522%2520alt%253D%2522image%2522%2520class%253D%2522img-responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520vertical_card%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522font-l%2522%253EChanging%2520Planet%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522pt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Vero%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520corrupti%2520dolor%252C%2520provident%2520veritatis%2520laudantium%2520quae%2520aperiam%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520veniam%2520dicta%2520velit%2520ducimus%2520dolorum%2520fuga%2520iur%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="
                   width: 100%;
                   height: auto;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </code>
-          </div>
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </code>
+        </div>
 
-          <!-- veritical card -->
-          <h6>Vertical Text Card:</h6>
-          <div class="card_body p-2">
-            <div class="card card_vertical m-auto">
-              <img src="../assets/img.png" alt="image" class="img-responsive" />
-              <div class="card vertical_card p-1">
-                <h5 class="font-l">Changing Planet</h5>
-                <p class="pt-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-                  corrupti dolor, provident veritatis laudantium quae aperiam
-                  veniam dicta velit ducimus dolorum fuga iur
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="code_snipet_display">
-            <code>
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card_vertical%2520m-auto%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fimg.png%2522%2520alt%253D%2522image%2522%2520class%253D%2522img-responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520vertical_card%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522font-l%2522%253EChanging%2520Planet%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522pt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Vero%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520corrupti%2520dolor%252C%2520provident%2520veritatis%2520laudantium%2520quae%2520aperiam%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520veniam%2520dicta%2520velit%2520ducimus%2520dolorum%2520fuga%2520iur%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                style="
-                  width: 100%;
-                  height: auto;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </code>
-          </div>
+        <!-- card with badge -->
+        <h6>Card With Badges:</h6>
+        <div class="card_body p-2 ecomerce_card flex">
+          <div class="card m-auto">
+            <span class="card_badge span-hov">New</span>
+            <img src="../assets/ecommerce.jpeg" alt="img" class="img-responsive" />
 
-          <!-- card with badge -->
-          <h6>Card With Badges:</h6>
-           <div class="card_body p-2 ecomerce_card flex">
-            <div class="card m-auto">
-              <span class="card_badge span-hov">New</span>
-              <img
-                src="../assets/ecommerce.jpeg"
-                alt="img"
-                class="img-responsive"
-              />
-
-              <div class="ecomerce-card-content">
-                <p class="font-l">T shirt</p>
-                <h5 class="font-l">Rs 2500</h5>
-                <button class="btn btn__primary icons_btn ecoms_btn">
-                  <span class="ml-3">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i></span
-                  >Add to cart
-                </button>
-              </div>
-            </div>
-
-            <div class="card m-auto">
-              <span class="card_badge_right span-hov"
-                ><i class="fas fa-times"></i
-              ></span>
-
-              <img
-                src="../assets/ecommerce.jpeg"
-                alt="img"
-                class="img-responsive"
-              />
-
-              <div class="ecomerce-card-content">
-                <p class="font-l">T shirt</p>
-                <h5 class="font-l">Rs 2500</h5>
-                <button class="btn btn__primary icons_btn ecoms_btn">
-                  <span class="ml-3">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i></span
-                  >Add to cart
-                </button>
-              </div>
+            <div class="ecomerce-card-content">
+              <p class="font-l">T shirt</p>
+              <h5 class="font-l">Rs 2500</h5>
+              <button class="btn btn__primary icons_btn ecoms_btn">
+                <span class="ml-3">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i></span>Add to cart
+              </button>
             </div>
           </div>
 
-          <div class="code_snipet_display">
-            <code>
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card_body%2520p-2%2520ecomerce_card%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520m-auto%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card_badge%2520span-hov%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fassets%252Fecommerce.jpeg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522ecomerce-card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-l%2522%253ET%2520shirt%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522font-l%2522%253ERs%25202500%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__primary%2520icons_btn%2520ecoms_btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522ml-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520m-auto%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card_badge_right%2520span-hov%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fassets%252Fecommerce.jpeg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522ecomerce-card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-l%2522%253ET%2520shirt%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522font-l%2522%253ERs%25202500%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__primary%2520icons_btn%2520ecoms_btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522ml-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                style="
-                  width: 100%;
-                  height: auto;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </code>
-          </div>
+          <div class="card m-auto">
+            <span class="card_badge_right span-hov"><i class="fas fa-times"></i></span>
 
-          <!-- horizontal card -->
-          <h6>Horizontal Card:</h6>
-          <div class="card_body p-2">
-            <div class="card horizontal_card flex m-auto">
-              <img
-                src="../assets/img.png"
-                alt="image"
-                class="img-responsive horzin-photo"
-              />
-              <div class="p-1">
-                <h5 class="font-l">Shubham Kumar</h5>
-                <h6 class="font-m">Intro</h6>
-                <p class="pt-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-                  corrupti dolor, provident veritatis laudantium quae aperiam
-                  veniam dicta velit ducimus dolorum fuga iur
-                </p>
-              </div>
+            <img src="../assets/ecommerce.jpeg" alt="img" class="img-responsive" />
+
+            <div class="ecomerce-card-content">
+              <p class="font-l">T shirt</p>
+              <h5 class="font-l">Rs 2500</h5>
+              <button class="btn btn__primary icons_btn ecoms_btn">
+                <span class="ml-3">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i></span>Add to cart
+              </button>
             </div>
-          </div>
-
-          <div class="code_snipet_display">
-            <code>
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card_body%2520p-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520horizontal_card%2520flex%2520m-auto%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fassets%252Fimg.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2520horzin-photo%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522font-l%2522%253EShubham%2520Kumar%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522font-m%2522%253EIntro%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522pt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Vero%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520corrupti%2520dolor%252C%2520provident%2520veritatis%2520laudantium%2520quae%2520aperiam%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520veniam%2520dicta%2520velit%2520ducimus%2520dolorum%2520fuga%2520iur%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                style="
-                  width: 100%;
-                  height: auto;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </code>
-          </div>
-
-          <h6>Cards With Shadow:</h6>
-          <div class="card_body p-2">
-            <div class="card card_vertical m-auto">
-              <img src="../assets/img.png" alt="image" class="img-responsive" />
-              <div class="card vertical_card p-1">
-                <h5 class="font-l">Shubham Kumar</h5>
-                <p class="pt-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-                  corrupti dolor, provident veritatis laudantium quae aperiam
-                  veniam dicta velit ducimus dolorum fuga iur
-                </p>
-              </div>
-              <span class="text_overlay">Text overlay</span>
-            </div>
-          </div>
-          <div class="code_snipet_display">
-            <code>
-              <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card_body%2520p-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card_vertical%2520m-auto%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fimg.png%2522%2520alt%253D%2522image%2522%2520class%253D%2522img-responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520vertical_card%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522font-l%2522%253EShubham%2520Kumar%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522pt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Vero%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520corrupti%2520dolor%252C%2520provident%2520veritatis%2520laudantium%2520quae%2520aperiam%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520veniam%2520dicta%2520velit%2520ducimus%2520dolorum%2520fuga%2520iur%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text_overlay%2522%253EText%2520overlay%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522code_snipet_display%2522%253E"
-                style="
-                  width: 100%;
-                  height: auto;
-                  border: 0;
-                  transform: scale(1);
-                  overflow: hidden;
-                "
-                sandbox="allow-scripts allow-same-origin"
-              >
-              </iframe>
-            </code>
           </div>
         </div>
-      </main>
-    </div>
-  </body>
+
+        <div class="code_snipet_display">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card_body%2520p-2%2520ecomerce_card%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520m-auto%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card_badge%2520span-hov%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fassets%252Fecommerce.jpeg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522ecomerce-card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-l%2522%253ET%2520shirt%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522font-l%2522%253ERs%25202500%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__primary%2520icons_btn%2520ecoms_btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522ml-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520m-auto%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card_badge_right%2520span-hov%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fspan%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fassets%252Fecommerce.jpeg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522img%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522ecomerce-card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-l%2522%253ET%2520shirt%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522font-l%2522%253ERs%25202500%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn__primary%2520icons_btn%2520ecoms_btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522ml-3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-shopping-cart%2522%2520aria-hidden%253D%2522true%2522%253E%253C%252Fi%253E%253C%252Fspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253EAdd%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="
+                  width: 100%;
+                  height: auto;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </code>
+        </div>
+
+        <!-- horizontal card -->
+        <h6>Horizontal Card:</h6>
+        <div class="card_body p-2">
+          <div class="card horizontal_card flex m-auto">
+            <img src="../assets/img.png" alt="image" class="img-responsive horzin-photo" />
+            <div class="p-1">
+              <h5 class="font-l">Shubham Kumar</h5>
+              <h6 class="font-m">Intro</h6>
+              <p class="pt-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                corrupti dolor, provident veritatis laudantium quae aperiam
+                veniam dicta velit ducimus dolorum fuga iur
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="code_snipet_display">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card_body%2520p-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520horizontal_card%2520flex%2520m-auto%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252Fassets%252Fimg.png%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2520horzin-photo%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522font-l%2522%253EShubham%2520Kumar%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%2520class%253D%2522font-m%2522%253EIntro%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522pt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Vero%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520corrupti%2520dolor%252C%2520provident%2520veritatis%2520laudantium%2520quae%2520aperiam%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520veniam%2520dicta%2520velit%2520ducimus%2520dolorum%2520fuga%2520iur%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+              style="
+                  width: 100%;
+                  height: auto;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </code>
+        </div>
+
+        <h6>Cards With Shadow:</h6>
+        <div class="card_body p-2">
+          <div class="card card_vertical m-auto">
+            <img src="../assets/img.png" alt="image" class="img-responsive" />
+            <div class="card vertical_card p-1">
+              <h5 class="font-l">Shubham Kumar</h5>
+              <p class="pt-2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+                corrupti dolor, provident veritatis laudantium quae aperiam
+                veniam dicta velit ducimus dolorum fuga iur
+              </p>
+            </div>
+            <span class="text_overlay">Text overlay</span>
+          </div>
+        </div>
+        <div class="code_snipet_display">
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%2520%253Cdiv%2520class%253D%2522card_body%2520p-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520card_vertical%2520m-auto%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fimg.png%2522%2520alt%253D%2522image%2522%2520class%253D%2522img-responsive%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520vertical_card%2520p-1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%2520class%253D%2522font-l%2522%253EShubham%2520Kumar%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522pt-2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Vero%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520corrupti%2520dolor%252C%2520provident%2520veritatis%2520laudantium%2520quae%2520aperiam%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520veniam%2520dicta%2520velit%2520ducimus%2520dolorum%2520fuga%2520iur%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text_overlay%2522%253EText%2520overlay%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522code_snipet_display%2522%253E"
+              style="
+                  width: 100%;
+                  height: auto;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                " sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </code>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
 </html>

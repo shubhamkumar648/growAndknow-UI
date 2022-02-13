@@ -45,9 +45,10 @@
 }
 
 .badge__codesnippet-section{
-    width: 50%;
-    /* border: 1px solid var(--primary-color); */
+    width: 100%;
+    border: 1px solid var(--primary-color);
     background-color: var(--lightwhite-color);
     border-radius: 5px;
     background-color: var(--codesnipet-bg);
+    margin: auto; 
 }

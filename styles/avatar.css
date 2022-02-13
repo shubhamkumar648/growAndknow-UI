@@ -45,10 +45,9 @@
 
 .avatar-codesnippet-section {
     width: 100%;
-    max-height: 13.3125;
-    padding: 1rem 0;
-    background-color:  var(--codesnipet-bg);
     border: 1px solid var(--primary-color);
-    overflow: auto;
-    border-radius: 0.3rem;
+    background-color: var(--lightwhite-color);
+    border-radius: 5px;
+    background-color: var(--codesnipet-bg);
+    margin: auto;
 }

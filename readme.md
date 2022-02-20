@@ -19,19 +19,22 @@ Live Demo
 https://grow-n-know.netlify.app/
 <h>
 <h4>List of Component </h4>
+<ol>
 
-Alert
-Avatar
-Badges
-Button
-Card
-Image
-Input
-Text Utilities
-Navigation
-list
-Modal
-Rating
+ <ul>
+            <li>Alert</li>
+            <li> Avatar</li>
+            <li>Badges</li>
+            <li> Button</li>
+            <li> Card</li>
+            <li>Image</li>
+            <li> Input</li>
+            <li>Text Utilities</li>
+            <li>Navigation</li>
+            <li> list</li>
+           <li> Modal</li>
+            <li>Rating</li>
+          </ol>
 
 <h3>Contributing </h3>
 <p>Gk css component library  is open source and anyone can come and contribute in this component.</p>

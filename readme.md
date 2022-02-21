@@ -2,14 +2,14 @@
 
 Gk,grow & Know is a CSS library, for the quick creation of websites that help save time and focus more on functionality
 
-![image](https://raw.githubusercontent.com/shubhamkumar648/growAndknow-UI/dev/assets/logo.jpg)
+![image](https://raw.githubusercontent.com/shubhamkumar648/growAndknow-UI/issue_20/assets/langing.png)
 
 # Installation Steps
 
 Include CSS file mentioned in [installation section](https://grow-n-know.netlify.app/index.html#installation) in your head tag of html file.
 And you are ready to use this file.
 
-![image](https://raw.githubusercontent.com/shubhamkumar648/growAndknow-UI/dev/assets/logo.jpg)
+![image](https://raw.githubusercontent.com/shubhamkumar648/growAndknow-UI/issue_20/assets/install.png)
 
 #### you can also import below code in your css file
 

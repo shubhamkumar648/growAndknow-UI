@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito+Sans:wght@200&family=Poppins:ital,wght@0,500;1,100&family=Roboto:wght@300&display=swap');
-body {
-  font-family:  'Roboto Condensed', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito+Sans:wght@200&family=Poppins:ital,wght@0,500;1,100&family=Roboto:wght@300&display=swap');body {
+  font-family:  'Roboto', sans-serif;
   background-color: var(--background-color);
 }
 
@@ -120,8 +119,7 @@ a:hover {
 }
 
 .flex-col {
-
-  flex-direction: column;
+   flex-direction: column;
 }
 
 .flow-row {
@@ -161,6 +159,32 @@ a:hover {
   letter-spacing: 0.5px
 }
 
+
+/*  gutter gap css */
+.gap-sm{
+  gap:0.5rem;
+}
+
+.gap-md{
+  gap:1rem;
+}
+
+.gap-m{
+  gap:1.5rem;
+}
+
+.gap-l{
+  gap:2rem;
+}
+
+.gap-xl{
+  gap:2.5rem;
+
+}
+
+.gap-xxl{
+  gap:3rem;
+}
 
    /*    code snipet style    */
    

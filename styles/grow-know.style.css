@@ -1,6 +1,6 @@
-.container {
+/* .container {
     min-height: 100vh;
-}
+} */
 
 .header__container {
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%);
@@ -20,6 +20,10 @@
     color: var(--primary-color);
 }
 
+.main__content{
+
+    justify-content: space-evenly;
+}
 
 /* installment section */
 .installment__desciption-text {

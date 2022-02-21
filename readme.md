@@ -1,41 +1,51 @@
-<h1>Grow & Know UI</h1>
+# Grow & Know
 
-<h3>Gk,grow & Know is a CSS library, for the quick creation of websites that help save time and focus more on functionality.</h3>
-                        
+Gk,grow & Know is a CSS library, for the quick creation of websites that help save time and focus more on functionality
 
-<h1> Import link</h1>
+![image](https://raw.githubusercontent.com/shubhamkumar648/growAndknow-UI/dev/assets/logo.jpg)
 
-<link rel="stylesheet" href="https://grow-n-know.netlify.app/styles/main.css">
-            <span> OR</span>
+# Installation Steps
 
-<h6> CSS file link </h6>
+Include CSS file mentioned in [installation section](https://grow-n-know.netlify.app/index.html#installation) in your head tag of html file.
+And you are ready to use this file.
 
- <h4>@import url('@import url("https://grow-n-know.netlify.app/styles/main.css");</h4>
+![image](https://raw.githubusercontent.com/shubhamkumar648/growAndknow-UI/dev/assets/logo.jpg)
 
-<p>Copy-paste the given stylesheet link before all other stylesheets to load our CSS.</p>
+#### you can also import below code in your css file
 
-<h3>Website Walkthrough</h3>
-Live Demo
-https://grow-n-know.netlify.app/
-<h>
-<h4>List of Component </h4>
-<ol>
+` @import url("https://grow-n-know.netlify.app/styles/main.css")`
 
- <ul>
-            <li>Alert</li>
-            <li> Avatar</li>
-            <li>Badges</li>
-            <li> Button</li>
-            <li> Card</li>
-            <li>Image</li>
-            <li> Input</li>
-            <li>Text Utilities</li>
-            <li>Navigation</li>
-            <li> list</li>
-           <li> Modal</li>
-            <li>Rating</li>
-          </ol>
+# Live link
 
-<h3>Contributing </h3>
-<p>Gk css component library  is open source and anyone can come and contribute in this component.</p>
+- click this link - [Grow and Know](https://grow-n-know.netlify.app/)
 
+# Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+
+# Components
+
+Grow and Know all components. These components are always updated and improve.
+
+  <ul>
+            <li><a class="active link__nostyle" href="../component/alert.html">Alert</a></li>
+            <li> <a class="active link__nostyle" href="../component/avatar.html">Avatar</a></li>
+            <li><a class="active link__nostyle" href="../component/badge.html">Badges</a></li>
+            <li> <a class="active link__nostyle" href="../component/button.html">Button</a></li>
+            <li> <a class="active link__nostyle" href="../component/card.html">Card</a></li>
+            <li> <a class="active link__nostyle" href="../component/image.html">Image</a></li>
+            <li> <a class="active link__nostyle" href="../component/input.html">Input</a></li>
+            <li><a class="active link__nostyle" href="../component/textutilities.html">Text Utilities</a></li>
+            <li><a class="active link__nostyle" href="../component/navigation.html">Navigation</a></li>
+            <li> <a class="active link__nostyle" href="../component/list.html">list</a></li>
+            <li> <a class="active link__nostyle" href="../component/modal.html">Modal</a></li>
+             <li><a class="active link__nostyle" href="../component/rating.html">Rating</a></li>
+          </ul>
+
+**_GK(Gow and Know ) css component library is open source and anyone can come and contribute in this component. Glad to see you by supporting this project ! Contribute [starring](https://github.com/shubhamkumar648/growAndknow-UI) this repo._**
+
+---
+
+#### This project is still in progress feel free to come and check of progress [project ](https://grow-n-know.netlify.app/).

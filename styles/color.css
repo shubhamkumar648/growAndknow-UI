@@ -8,7 +8,7 @@
     --secondary-bg: hsla(28, 32%, 40%, 0.102);
     --lightwhite-color:hsl(0, 0%, 98%);
     --codesnipet-bg:hsl(0, 0%, 100%);
-    --background-color: hsl(39, 78%, 69%);
+    --background-color: hsl(0, 0%, 100%);
     --card-background: hsl(38, 73%, 84%);
     --info-color: hsl(211, 100%, 26%);
     --info-bg: hsl(211, 100%, 90%);
@@ -17,10 +17,10 @@
     --error-color: hsl(354, 61%, 28%);
     --error-bg: hsla(357, 93%, 71%, 0.102);
     --success-color: hsl(133, 61%, 21%);
-    --success-hover: hsl(133, 69%, 70%);
+    --success-hover: rgb(69, 233, 105);
     --success-bg:hsl(137, 41%, 88%);
-    --danger-color: hsl(354, 74%, 45%);
-    --danger-hover:hsl(354, 92%, 61%);
+    --danger-color: hsl(4, 90%, 58%);
+    --danger-hover:hsl(4, 92%, 43%);
     --text-color: hsl(199, 31%, 14%);
     --dark-grey: rgb(100, 100, 100);
     --grey: rgb(150, 150, 150);
@@ -28,5 +28,8 @@
     --light-grey: rgb(240, 240, 240);
     --default-box-shadow: 0px 0px 6px -2px grey;
     --text-overlay:rgba(161, 160, 160, 0.877);
+    --installment-snipet-color: hsl(218, 12%, 18%);
     ---snipet-bg:rgb(250, 250, 250);
+     --rating-color: hsl(48, 98%, 52%);
+     --outline-secondary-a-hover: hsla(0, 0%, 0%, 0.788);
     }

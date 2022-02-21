@@ -47,8 +47,7 @@
 .badge__codesnippet-section{
     width: 100%;
     border: 1px solid var(--primary-color);
-    background-color: var(--lightwhite-color);
     border-radius: 5px;
-    background-color: var(--codesnipet-bg);
+    background-color: var(---snipet-bg);
     margin: auto; 
 }

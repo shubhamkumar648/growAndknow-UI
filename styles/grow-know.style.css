@@ -1,24 +1,6 @@
-/* this link style for all anchor tag */
-
-.link__nostyle {
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-}
-
-a{
-    color: var(--text-color);
-    font-weight: 700;
-}
-
-a:hover {
-    color: var(--secondary-color);
-}
-
-.container {
+/* .container {
     min-height: 100vh;
-}
+} */
 
 .header__container {
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 10%);
@@ -38,8 +20,10 @@ a:hover {
     color: var(--primary-color);
 }
 
+.main__content{
 
-
+    justify-content: space-evenly;
+}
 
 /* installment section */
 .installment__desciption-text {
@@ -48,24 +32,9 @@ a:hover {
 
 .installment__code-snippet {
     width: 50%;
-    background-color: #282C33;
+    background-color: var(--installment-snipet-color);
     padding: 1rem 0;
     border: 1px solid var(--primary-color);
     overflow: auto;
     border-radius: 0.3rem;
-}
-
-.fotter__container {
-    text-align: center;
-    background-color: var(--light-grey);
-    margin-top: auto;
-}
-
-.footer_social-icon li {
-    display: inline-block;
-    padding: 1rem;
-}
-
-.code_color {
-    color: var(--secondary-color);
 }

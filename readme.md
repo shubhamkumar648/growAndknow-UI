@@ -42,6 +42,8 @@ Grow and Know all components. These components are always updated and improve.
             <li> <a class="active link__nostyle" href="../component/list.html">list</a></li>
             <li> <a class="active link__nostyle" href="../component/modal.html">Modal</a></li>
              <li><a class="active link__nostyle" href="../component/rating.html">Rating</a></li>
+              <li><a class="active link__nostyle" href="../component/grid.html">Grid (temp)</a></li>
+
           </ul>
 
 **_GK(Gow and Know ) css component library is open source and anyone can come and contribute in this component. Glad to see you by supporting this project ! Contribute [starring](https://github.com/shubhamkumar648/growAndknow-UI) this repo._**

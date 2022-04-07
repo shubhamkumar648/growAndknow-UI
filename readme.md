@@ -28,8 +28,7 @@ And you are ready to use this file.
 # Components
 
 Grow and Know all components. These components are always updated and improve.
-            <ul>
-  
+        <ul>
             <li><a class="active link__nostyle" href="../component/alert.html">Alert</a></li>
             <li> <a class="active link__nostyle" href="../component/avatar.html">Avatar</a></li>
             <li><a class="active link__nostyle" href="../component/badge.html">Badges</a></li>
@@ -42,7 +41,7 @@ Grow and Know all components. These components are always updated and improve.
             <li> <a class="active link__nostyle" href="../component/list.html">list</a></li>
             <li> <a class="active link__nostyle" href="../component/modal.html">Modal</a></li>
              <li><a class="active link__nostyle" href="../component/rating.html">Rating</a></li>
-             <li><a class="active link__nostyle" href="../component/grid.html">Grid (temp)</a></li>
+            <li><a class="active link__nostyle" href="../component/grid.html">Grid (temp)</a></li>
 
           </ul>
 

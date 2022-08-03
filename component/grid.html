@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../assets/gk1.png" type="image/png" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>GK UI</title>
+    <script
+    src="https://kit.fontawesome.com/a4417b6562.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <navbar class="navbar__container box-shadow mb-2">
+        <div class="navbar_nav">
+          <a href="../index.html" class="link__nostyle fs-xl header__brand-name brand_color">Grow & Know UI</a>
+        </div>
+  
+        <div class="navbar__git-icon">
+          <button class="button">
+            <a href="../index.html" class="link__nostyle">Home</a>
+          </button>
+  
+          <button class="button">
+            <a href="../component/alert.html" class="link__nostyle">Documentation
+            </a>
+          </button>
+          <button class="button btn-icon">
+            <a href="https://github.com/shubhamkumar648" class="link__nostyle" target="_blank"><i
+                class="fab fa-github"></i></a>
+          </button>
+        </div>
+      </navbar>
+
+      <aside class="aside__container p-2">
+        <div class="aside__header">
+          <span class="fs-xl">Component</span>
+        </div>
+
+        <hr />
+
+        <div class="aside__content p-1">
+          <ul>
+            <li><a class="active link__nostyle" href="../component/alert.html">Alert</a></li>
+            <li> <a class="active link__nostyle" href="../component/avatar.html">Avatar</a></li>
+            <li><a class="active link__nostyle" href="../component/badge.html">Badges</a></li>
+            <li> <a class="active link__nostyle" href="../component/button.html">Button</a></li>
+            <li> <a class="active link__nostyle" href="../component/card.html">Card</a></li>
+            <li> <a class="active link__nostyle" href="../component/image.html">Image</a></li>
+            <li> <a class="active link__nostyle" href="../component/input.html">Input</a></li>
+            <li><a class="active link__nostyle" href="../component/textutilities.html">Text Utilities</a></li>
+            <li><a class="active link__nostyle" href="../component/navigation.html">Navigation</a></li>
+            <li> <a class="active link__nostyle" href="../component/list.html">list</a></li>
+           <li> <a class="active link__nostyle" href="../component/modal.html">Modal</a></li>
+            <li><a class="active link__nostyle" href="../component/rating.html">Rating</a></li>
+            <li><a class="active link__nostyle" href="../component/grid.html">Grid</a></li>
+          </ul>
+        </div>
+      </aside>
+
+      <main class="main__container p-2">
+        <h3>Grid</h3>
+        <p class="ls-s lh-l">
+            The Grid model allows us to layout the content of our website. it is ver powrfull properties ogf css , it helps us create the structures needed for creating responsive websites for multiple devices.
+        </p>
+        <p class="lh-s mb-4">Example: grid-2: two items in a grid| grid-3: three items</p>
+
+        <h6 class="lh-l">Two item Grid:</h6>
+        <p class="lh-m">It contain two column</p> 
+        <div class="grid_main__container">
+          <div class="grid_two_item">
+               <div class="item_border">Grid 1</div>
+               <div class="item_border">Grid 2</div>
+               <div class="item_border"> Grid 3 </div>
+               <div class="item_border">Grid 4</div>
+          </div>
+        </div>
+
+        <div class="code_snipet_display mt-2">
+          <code>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid_main__container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid_two_item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item_border%2522%253EGrid%25201%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item_border%2522%253EGrid%25202%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item_border%2522%253E%2520Grid%25203%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item_border%2522%253EGrid%25204%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+            style=" width: 100%;
+            height: auto;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </code>
+        </div>
+
+        <h6 class="lh-l">grid-3: three items</h6>
+        <p class="lh-m">
+       
+        </p>
+        <div class="grid_main__container">
+            <div class="grid_three_item">
+                 <div class="item_border">Grid 1</div>
+                 <div class="item_border">Grid 2</div>
+                 <div class="item_border"> Grid 3 </div>
+                 <div class="item_border">Grid 4</div>
+                 <div class="item_border">Grid 5</div>
+                 <div class="item_border">Grid 6</div>
+               </div>
+          </div>
+        <div class="code_snipet_display mt-2">
+          <code>
+            <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=one-light&wt=none&l=crystal&width=876&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=31px&ln=false&fl=1&fm=Anonymous+Pro&fs=18px&lh=154%25&si=false&es=1x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522grid_main__container%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid_three_item%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item_border%2522%253EGrid%25201%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item_border%2522%253EGrid%25202%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item_border%2522%253E%2520Grid%25203%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item_border%2522%253EGrid%25204%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item_border%2522%253EGrid%25205%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522item_border%2522%253EGrid%25206%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style=" width: 100%;
+            height: auto;
+            border: 0;
+            transform: scale(1);
+            overflow: hidden;
+          "
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </code>
+        </div>
+      </main>
+    </div>
+  </body>
+
+</html>
